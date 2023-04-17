@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "mytaskscount-client-side-solution",
+    "id": "e8dbbf90-4e5d-45f4-81ac-c6733afc3210",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "mytaskscount description"
+      },
+      "longDescription": {
+        "default": "mytaskscount description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "mytaskscount Feature",
+        "description": "The feature that activates elements of the mytaskscount solution.",
+        "id": "0449d9ae-c1da-4115-9d02-568b3f3f7a62",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/mytaskscount.sppkg"
+  }
+}
